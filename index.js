@@ -1,29 +1,29 @@
 
-// const nombre = 'Juan';
-// const edad = 23;
-// const precio = '$10';
-// const misSeriesFavorite = ['El marginal', 'Academia umbrella', 'The Big Bang Theory'];
-// const misPeliculasFavorite = ['el señor de los anillos, 1999, juan', 'la vida es bella,2020, ana', 'el padrino,1987, pedro'];
+const nombre = 'Juan';
+const edad = 23;
+const precio = '$10';
+const misSeriesFavorite = ['El marginal', 'Academia umbrella', 'The Big Bang Theory'];
+const misPeliculasFavorite = ['el señor de los anillos, 1999, juan', 'la vida es bella,2020, ana', 'el padrino,1987, pedro'];
   
-// console.log(`Hola, mi nombre es ${nombre} y tengo ${edad} años, mis series favoritas son ${misSeriesFavorite} y mis peliculas favoritas son ${misPeliculasFavorite}`);
-// misSeriesFavorite.push('The Flash');
+console.log(`Hola, mi nombre es ${nombre} y tengo ${edad} años, mis series favoritas son ${misSeriesFavorite} y mis peliculas favoritas son ${misPeliculasFavorite}`);
+misSeriesFavorite.push('The Flash');
 
-// console.log(`Hola, mi nombre es ${nombre} y tengo ${edad+1} años, mis series favoritas son ${misSeriesFavorite} y mis peliculas favoritas son ${misPeliculasFavorite}`);
+console.log(`Hola, mi nombre es ${nombre} y tengo ${edad+1} años, mis series favoritas son ${misSeriesFavorite} y mis peliculas favoritas son ${misPeliculasFavorite}`);
      
 
-// const lista = []; 
+const lista = []; 
 
-// function mostrarLista(){
+function mostrarLista(){
 
-//     if (lista.length === 0){
-//         console.log('No hay nada que mostrar');
-//     }else{
-//         console.log(lista);
-//     }
+    if (lista.length === 0){
+        console.log('No hay nada que mostrar');
+    }else{
+        console.log(lista);
+    }
 
-// }
+}
 
-// console.log(mostrarLista());
+console.log(mostrarLista());
 
 
 class Usuario {
@@ -72,4 +72,5 @@ usuario1.getBooks();
 console.log(usuario1.getNombreCompleto());
 console.log(usuario1.countMasMascota());
 console.log(usuario1.getBooks());
+
 
